@@ -1,0 +1,34 @@
+baseURL = "https://nathanhuisman.xyz/"
+languageCode = "en-us"
+title = "Nathan Huisman"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts     = false
+buildFuture     = false
+buildExpired    = false
+[minify]
+    disableXML   = true
+    minifyOutput = true
+
+[params]
+    custom_css = ["custom.css"]
+
+    env = "production"
+    [params.profileMode]
+        enabled = true
+        title = "NathanHuisman.xyz"
+        subtitle = "Bottom Text\n\nI don't know what to do with this website yet"
+        imageUrl = "/images/computerman_square.jpg"
+        imageTitle = "Computer Man!!!1!"
+        imageWidth  = 240
+        imageHeight = 240
+    [[params.socialIcons]]
+    name = "Instagram"
+    url = "https://instagram.com/nathan_huismus"
+    [[params.socialIcons]]
+    name = "Twitter"
+    url = "https://twitter.com/huisman_nathan"
+    [[params.socialIcons]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/nathan-huisman-212b6b200/"
