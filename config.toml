@@ -12,9 +12,25 @@ buildExpired    = false
     minifyOutput = true
 
 [params]
-    custom_css = ["custom.css"]
-
     env = "production"
+    custom_css = ["custom.css"]
+    
+    keywords = ["Blog", "Portfolio", "Nathan Huisman"]
+    DateFormat = "September 20, 2003"
+    defaultTheme = "auto"
+    ShowReadingTime  = true
+    ShowShareButtons = true
+    ShowPostNavLinks = true
+    ShowBreadCrumbs  = true
+    ShowCodeCopyButtons   = false
+    disableSpecial1stPost = false
+    disableScrollToTop    = false
+    comments    = false
+    hidemeta    = false
+    hideSummary = false
+    showtoc     = false
+    tocopen     = false
+
     [params.profileMode]
         enabled = true
         title = "NathanHuisman.xyz"
@@ -32,3 +48,9 @@ buildExpired    = false
     [[params.socialIcons]]
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/nathan-huisman-212b6b200/"
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 10
