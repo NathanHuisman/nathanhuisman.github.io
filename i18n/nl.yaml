@@ -1,0 +1,25 @@
+- id: prev_page
+  translation: "Vorige pagina"
+
+- id: next_page
+  translation: "Volgende pagina"
+
+- id: read_time
+  translation:
+    one : "1 minuut"
+    other: "{{ .Count }} minuten"
+
+- id: toc
+  translation: "Inhoudsopgave"
+
+- id: translations
+  translation: "Vertalingen"
+
+- id: home
+  translation: "Home"
+
+- id: code_copy
+  translation: "kopieer naar klembord"
+
+- id: code_copied
+  translation: "gekopieerd!"

@@ -1,16 +1,39 @@
 baseURL = "https://nathanhuisman.xyz/"
-languageCode = "en-us"
 title = "Nathan Huisman"
 theme = "PaperMod"
-
+defaultContentLanguage = "en"
 enableRobotsTXT = true
 buildDrafts     = false
 buildFuture     = false
 buildExpired    = false
+
 [minify]
     disableXML   = true
     minifyOutput = true
 
+[languages]
+    [languages.en]
+        weight = 10
+        [languages.en.params]
+            [languages.en.params.profileMode]
+                enabled = true
+                title = "NathanHuisman.xyz"
+                subtitle = "Bottom Text\n\nI don't know what to do with this website yet"
+                imageUrl = "/images/computerman_square.jpg"
+                imageTitle = "Computer Man!!!1!"
+                imageWidth  = 240
+                imageHeight = 240
+    [languages.nl]
+        weight = 10
+        [languages.nl.params]
+            [languages.nl.params.profileMode]
+                enabled = true
+                title = "NathanHuisman.xyz"
+                subtitle = "Bottom Text\n\nIk weet nog niet wat ik met deze website ga doen"
+                imageUrl = "/images/computerman_square.jpg"
+                imageTitle = "Computer Man!!!1!"
+                imageWidth  = 240
+                imageHeight = 240
 [params]
     env = "production"
     custom_css = ["custom.css"]
@@ -31,14 +54,6 @@ buildExpired    = false
     showtoc     = false
     tocopen     = false
 
-    [params.profileMode]
-        enabled = true
-        title = "NathanHuisman.xyz"
-        subtitle = "Bottom Text\n\nI don't know what to do with this website yet"
-        imageUrl = "/images/computerman_square.jpg"
-        imageTitle = "Computer Man!!!1!"
-        imageWidth  = 240
-        imageHeight = 240
     [[params.socialIcons]]
     name = "Instagram"
     url = "https://instagram.com/nathan_huismus"
