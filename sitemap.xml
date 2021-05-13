@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://nathanhuisman.xyz/posts/my-first-post/</loc>
-    <lastmod>2021-05-11T18:11:23+02:00</lastmod>
-  </url><url>
-    <loc>https://nathanhuisman.xyz/</loc>
-    <lastmod>2021-05-11T18:11:23+02:00</lastmod>
-  </url><url>
-    <loc>https://nathanhuisman.xyz/posts/</loc>
-    <lastmod>2021-05-11T18:11:23+02:00</lastmod>
-  </url><url>
-    <loc>https://nathanhuisman.xyz/categories/</loc>
-  </url><url>
-    <loc>https://nathanhuisman.xyz/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://nathanhuisman.xyz/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://nathanhuisman.xyz/nl/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
