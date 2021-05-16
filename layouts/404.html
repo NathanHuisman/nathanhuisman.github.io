@@ -1,0 +1,25 @@
+{{- define "main" }}
+<style>
+.error-404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+}
+.error-404 > h1 {
+    margin-bottom: 1rem;
+    font-size: min(40vw,20rem);
+    font-weight: 300;
+    text-align: center;
+}
+.error-404 > h2 {
+    font-size: min(max(1.5rem, 5vw), 3rem);
+    text-align: center;
+}
+</style>
+<div class="error-404">
+    <h1>404</h1>
+    <h2>{{ i18n "404" }}</h2>
+</div>
+{{- end }}{{/* end main */ -}}

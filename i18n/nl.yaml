@@ -23,3 +23,6 @@
 
 - id: code_copied
   translation: "gekopieerd!"
+
+- id: '404'
+  translation: "Sorry, deze pagina is niet gevonden"
